@@ -13,7 +13,7 @@ public:
 	unsigned radius;
 	unsigned centerX;
 	unsigned centerY;
-	BaseCharacter* player;
+	BaseCharacter * player;
 	std::vector<BaseCharacter*> zombies;
 	void draw();
 	void addPlayer(BaseCharacter* player_);

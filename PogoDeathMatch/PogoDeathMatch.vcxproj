@@ -129,6 +129,7 @@
     <ClCompile Include="Allegro\Allegro Wrapper\WritableBox.cpp" />
     <ClCompile Include="Allegro\Allegro Wrapper\WrittenBox.cpp" />
     <ClCompile Include="Allegro\AllegroV2\AllegroClassV2.cpp" />
+    <ClCompile Include="Front.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Stage.cpp" />
   </ItemGroup>
@@ -149,10 +150,17 @@
     <ClInclude Include="Allegro\AllegroV2\AllegroAddons.h" />
     <ClInclude Include="Allegro\AllegroV2\AllegroClassV2.h" />
     <ClInclude Include="Allegro\AllegroV2\AllegroFactory.h" />
+    <ClInclude Include="Front.h" />
     <ClInclude Include="Stage.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PogoDeathmatch1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="UbuntuMono-R.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

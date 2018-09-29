@@ -1,0 +1,53 @@
+﻿  AllegroBox.cpp
+  AllegroButton.cpp
+  AllegroLayout.cpp
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\allegro\allegro wrapper\allegrolayout.cpp(81): warning C4018: '<': signed/unsigned mismatch
+  AllegroWindow.cpp
+  WritableBox.cpp
+  WrittenBox.cpp
+  Front.cpp
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\allegro\allegrov2\allegrofactory.h(35): warning C4018: '<': signed/unsigned mismatch
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\allegro\allegrov2\allegrofactory.h(114): warning C4018: '<': signed/unsigned mismatch
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\allegro\allegrov2\allegrofactory.h(152): warning C4018: '<': signed/unsigned mismatch
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\allegro\allegrov2\allegrofactory.h(190): warning C4018: '<': signed/unsigned mismatch
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\allegro\allegrov2\allegrofactory.h(288): warning C4018: '<': signed/unsigned mismatch
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(3): error C2143: syntax error: missing ';' before 'Menu::checkForPress'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(4): error C2556: 'int Menu::checkForPress(float,float,double)': overloaded function differs only by return type from 'buttonval Menu::checkForPress(float,float,double)'
+  c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.h(60): note: see declaration of 'Menu::checkForPress'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(3): error C2371: 'Menu::checkForPress': redefinition; different basic types
+  c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.h(60): note: see declaration of 'Menu::checkForPress'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(6): error C2146: syntax error: missing ';' before identifier 'button'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(6): error C2065: 'button': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(6): error C2065: 'NONE': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(8): error C3867: 'AllegroToggle::toggle': non-standard syntax; use '&' to create a pointer to member
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(11): error C2065: 'button': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(11): error C2065: 'PLAY': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(15): error C3867: 'AllegroToggle::toggle': non-standard syntax; use '&' to create a pointer to member
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(18): error C2065: 'button': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(18): error C2065: 'CONTINUE': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(22): error C3867: 'AllegroToggle::toggle': non-standard syntax; use '&' to create a pointer to member
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(25): error C2065: 'button': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(25): error C2065: 'EXIT': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\front.cpp(28): error C2065: 'button': undeclared identifier
+  Stage.cpp
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(16): error C2143: syntax error: missing ';' before '*'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(16): error C2238: unexpected token(s) preceding ';'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(17): error C2065: 'BaseCharacter': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(17): error C2059: syntax error: '>'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(17): error C2976: 'std::vector': too few template arguments
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(625): note: see declaration of 'std::vector'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(19): error C2061: syntax error: identifier 'BaseCharacter'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.h(20): error C2061: syntax error: identifier 'BaseCharacter'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(6): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(625): note: see declaration of 'std::vector'
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(19): error C2065: 'BaseCharacter': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(19): error C2065: 'player_': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(19): error C2761: 'void Stage::addPlayer(void)': redeclaration of member is not allowed
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(20): error C2448: 'Stage::addPlayer': function-style initializer appears to be a function definition
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(24): error C2065: 'BaseCharacter': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(24): error C2065: 'zombie_': undeclared identifier
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(24): error C2761: 'void Stage::addZombie(void)': redeclaration of member is not allowed
+c:\users\frank\onedrive\documentos\github\itba-game-jam-2018\pogodeathmatch\stage.cpp(25): error C2448: 'Stage::addZombie': function-style initializer appears to be a function definition
+  Generating Code...

@@ -107,6 +107,8 @@ public:
 	// ONLY AllegroToggle : this function will return true if the button is pressed. IT ONLY WORKS WITH A SINGLE CLICK
 	virtual bool isPressed() { return false; }
 
+	virtual void toggle(float mouseX, float mouseY, double timeStamp) {};
+
 
 protected:
 	// This function is called everytime a change is made in the box to reflect that change on the bitmap

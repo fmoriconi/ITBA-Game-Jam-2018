@@ -31,6 +31,12 @@
     <Filter Include="Source Files\Allegro\UI">
       <UniqueIdentifier>{01cc1770-e644-4f70-8051-4537f62ffb72}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\FrontEnd">
+      <UniqueIdentifier>{41b24806-9a9c-498c-a7d8-ffeb8d87c45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FrontEnd">
+      <UniqueIdentifier>{e5dc1009-a39b-4cfc-84c5-73b555f8db94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Allegro\Allegro Wrapper\AllegroAnimation.cpp">
@@ -80,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="Stage.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Front.cpp">
+      <Filter>Source Files\FrontEnd</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -134,8 +143,21 @@
     <ClInclude Include="Stage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Front.h">
+      <Filter>Header Files\FrontEnd</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PogoDeathmatch1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="UbuntuMono-R.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
   </ItemGroup>
 </Project>
