@@ -78,6 +78,9 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Allegro\Allegro Wrapper\AllegroAnimation.h">
@@ -127,6 +130,9 @@
     </ClInclude>
     <ClInclude Include="Allegro\AllegroV2\AllegroFactory.h">
       <Filter>Header Files\Allegro\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
