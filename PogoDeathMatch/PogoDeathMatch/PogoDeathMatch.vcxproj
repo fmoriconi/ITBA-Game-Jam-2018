@@ -129,6 +129,7 @@
     <ClCompile Include="Allegro\Allegro Wrapper\WritableBox.cpp" />
     <ClCompile Include="Allegro\Allegro Wrapper\WrittenBox.cpp" />
     <ClCompile Include="Allegro\AllegroV2\AllegroClassV2.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Allegro\Allegro Wrapper\AllegroAnimation.h" />

@@ -75,6 +75,9 @@
     <ClCompile Include="Allegro\AllegroV2\AllegroClassV2.cpp">
       <Filter>Source Files\Allegro\Init</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Allegro\Allegro Wrapper\AllegroAnimation.h">
